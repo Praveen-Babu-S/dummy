@@ -1,8 +1,7 @@
-# library(Rtsne) # for running t-SNE algorithm
- library(ggplot2) # for plotting
+ 
 
 # # replace "data.csv" with the name of your dataset file
-# data <- read.csv("data.csv", header = TRUE)
+data <- read.csv("data.csv", header = TRUE)
 
 # # set perplexity to a value between 5 and 50 (usually 30 works well)
 # tsne <- Rtsne(data, perplexity = 30, verbose = TRUE)
