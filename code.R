@@ -1,5 +1,5 @@
 # library(Rtsne) # for running t-SNE algorithm
-# library(ggplot2) # for plotting
+ library(ggplot2) # for plotting
 
 # # replace "data.csv" with the name of your dataset file
 # data <- read.csv("data.csv", header = TRUE)
@@ -8,7 +8,7 @@
 # tsne <- Rtsne(data, perplexity = 30, verbose = TRUE)
 
 # # create a data frame with the t-SNE results
-# tsne_df <- data.frame(tsne$Y, label = data$label)
+tsne_df <- data.frame(tsne$Y, label = data$label)
 
 # # plot the t-SNE results
 # ggplot(tsne_df, aes(x = X1, y = X2, color = label)) +
