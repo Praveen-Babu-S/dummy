@@ -1,5 +1,5 @@
 # library(Rtsne) # for running t-SNE algorithm
-# library(ggplot2) # for plotting
+ library(ggplot2) # for plotting
 
 # # replace "data.csv" with the name of your dataset file
 # data <- read.csv("data.csv", header = TRUE)
